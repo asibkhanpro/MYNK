@@ -314,7 +314,9 @@
 
 /* small mobile (XS) :320px. */
 @media (max-width: 767px) {
-
+    .logo img {
+        width: 50%;
+    }
 
     p {
         font-size: 12px !important;
@@ -561,6 +563,9 @@
         line-height: 15px !important;
         font-size: 8px !important;
         margin-bottom: 0;
+    }
+    header {
+        padding: 1rem 0;
     }
 }
 

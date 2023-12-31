@@ -505,18 +505,6 @@ label {
 	opacity: .8;
 }
 
-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1024;
-    width: 100%;
-    padding: 2rem 0;
-    -webkit-transition: background 0.3s;
-    -o-transition: background 0.3s;
-    transition: background 0.3s;
-    background-color: #000000;
-}
 .border-btn {
 	padding: 14px 20px;
 	font-size: 22px;
@@ -542,6 +530,18 @@ header.sticky {
     box-shadow: 0 0.8rem 2rem 0 rgba(0, 0, 0, 0.1);
 }
   
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1024;
+    width: 100%;
+    padding: 2rem 0;
+    -webkit-transition: background 0.3s;
+    -o-transition: background 0.3s;
+    transition: background 0.3s;
+    background-color: #000000;
+}
   
 /*Hamburger menu*/
 .hamburger-menu {
@@ -555,44 +555,28 @@ header.sticky {
 	display: none;
 }
 .hamburger-menu span {
-    background: #ffffff;
-    width: 3.4rem;
-    height: 0.3rem;
-    display: block;
-    margin: 0.7rem 0;
-    -webkit-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
+	background: #ffffff;
+	width: 3rem;
+	height: 0.3rem;
+	display: block;
+	margin: 0.5rem 0;
+	-webkit-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
 }
-  
-.hamburger-menu:hover .line-top {
-    -webkit-transform: translateY(-100%);
-    -ms-transform: translateY(-100%);
-    transform: translateY(-100%);
-}
-  
-.hamburger-menu:hover .line-bottom {
-    -webkit-transform: translateY(100%);
-    -ms-transform: translateY(100%);
-    transform: translateY(100%);
-}
-  
 .hamburger-menu .line-top.current {
-    -webkit-transform: translateY(250%) rotate(135deg);
-    -ms-transform: translateY(250%) rotate(135deg);
-    transform: translateY(250%) rotate(135deg);
+	-webkit-transform: translateY(250%) rotate(135deg);
+	-ms-transform: translateY(250%) rotate(135deg);
+	transform: translateY(235%) rotate(135deg);
 }
-  
+.hamburger-menu .line-bottom.current {
+	-webkit-transform: translateY(-400%) rotate(-135deg);
+	-ms-transform: translateY(-400%) rotate(-135deg);
+	transform: translateY(-335%) rotate(-135deg);
+}
 .hamburger-menu .line-center.current {
     opacity: 0;
 }
-  
-.hamburger-menu .line-bottom.current {
-    -webkit-transform: translateY(-400%) rotate(-135deg);
-    -ms-transform: translateY(-400%) rotate(-135deg);
-    transform: translateY(-400%) rotate(-135deg);
-}
-  
 /*ofcanvas menu*/
 .responsive-menu {
     position: fixed;
