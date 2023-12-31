@@ -567,6 +567,10 @@
     header {
         padding: 1rem 0;
     }
+    .border-btn {
+        padding: 18px 30px;
+    }
+    
 }
 
 
@@ -578,5 +582,8 @@
     }    
     .partners-logo.widht-100 img {
         width: 100%;
+    }
+    .hero-btn .btn {
+        font-size: 12px;
     }
 }
