@@ -317,7 +317,7 @@
 
 
     p {
-        font-size: 12px;
+        font-size: 12px !important;
         line-height: 22px;
     }
     .main-menu{
@@ -481,12 +481,12 @@
         margin-bottom: 50px;
     }
     .follow-content h1 {
-        font-size: 47px;
+        font-size: 40px;
         margin-bottom: 30px;
     }
     .follow-img img {
         margin: 10px;
-        width: 170px;
+        width: 120px;
         text-align: center;
     }
     .choose-text-1{
@@ -523,22 +523,45 @@
     .accordion-area {
         padding-bottom: 80px;
     }
+    .footer-logo {
+        margin-bottom: 0;
+    }
+    .social-icon img {
+        width: 20px;
+    }
+    .footer-text p {
+        line-height: 16px;
+        font-size: 10px;
+        margin-bottom: 0;
+    }
+    .footer-logo img {
+        width: 100px;
+    }
+    .footer-text p {
+        line-height: 12px !important;
+        font-size: 9px;
+        margin-bottom: 0;
+    }
     .footer-area {
         background-repeat: no-repeat;
         background-size: 100%;
-        padding-top: 75px;
-        padding-bottom: 20px;
+        padding-bottom: 10px;
+        padding-top: 34px;
     }
-    .footer-logo {
-        margin-bottom: 25px;
+    .copyright-text {
+        padding-bottom: 0;
     }
-    .social-icon img {
-        width: 60px;
+    hr {
+        margin: 5px 0;
+    }
+    .social-icon {
+        margin: 5px 0;
     }
     .footer-text p {
-        line-height: 34px;
+        line-height: 15px !important;
+        font-size: 8px !important;
+        margin-bottom: 0;
     }
-
 }
 
 
